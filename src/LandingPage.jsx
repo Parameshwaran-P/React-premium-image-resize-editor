@@ -3,7 +3,7 @@ import { Moon, Sun, Download, Star, Zap, Image, Crop, Sliders, Sparkles } from '
 import PSHImageEditor from 'react-psh-image-editor-modal';
 import 'react-psh-image-editor-modal/dist/index.css';
 
-export default function PSHLandingPage() {
+export default function LandingPage() {
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleTheme = () => setDarkMode(!darkMode);
