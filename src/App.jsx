@@ -1,5 +1,5 @@
 // // src/App.js
-import LandingPage from "./LandingPage";
+import LandingPage from "./Landingpage";
 
 export default function App({ handleImageSubmit }) {
   return (
