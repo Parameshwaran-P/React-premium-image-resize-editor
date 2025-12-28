@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "buildCommand": "npm run build -- --verbose",
     "preview": "vite preview"
   },
   "engines": {
-    "node": "24.x"
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "lucide-react": "^0.562.0",
