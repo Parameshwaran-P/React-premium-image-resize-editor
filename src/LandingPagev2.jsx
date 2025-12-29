@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Moon, Sun, Download, Star, Zap, Image, Crop, Sliders, Sparkles } from 'lucide-react';
 import PSHImageEditor from 'react-psh-image-editor-modal';
 import 'react-psh-image-editor-modal/dist/index.css'; 
+import PshImage from './assets/psh_image_editor.png'
 export default function LandingPage() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -80,7 +81,7 @@ export default function LandingPage() {
         <div className="text-center max-w-5xl mx-auto">
           <div className="h-40 w-40 bg-gray-200 flex items-center justify-center">
   <img
-    src="/public/psh_image_editor.png"
+    src={PshImage}
     alt="Logo"
     className="h-16 w-16 object-contain"
   />
