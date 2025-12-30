@@ -125,7 +125,7 @@ export default function LandingPage() {
           </h3>
           
           {/* Terminal */}
-          <div className={`rounded-2xl overflow-hidden mb-6 border p-5 ${
+          <div className={`rounded-2xl overflow-hidden mb-6 border p-2 ${
             darkMode ? 'bg-slate-950 border-purple-500/30' : 'bg-slate-800 border-slate-700'
           }`}>
             <div className={`flex items-center px-6 py-4 ${
@@ -147,7 +147,7 @@ export default function LandingPage() {
           <div className={`rounded-2xl overflow-hidden border ${
             darkMode ? 'bg-slate-950 border-purple-500/30' : 'bg-slate-800 border-slate-700'
           }`}>
-            <div className={`flex items-center p-5 px-6 py-4 ${
+            <div className={`flex items-center p-2 px-6 py-4 ${
               darkMode ? 'bg-slate-900/80' : 'bg-slate-900'
             }`}>
               <div className="w-3 h-3 rounded-full bg-red-500"></div>
