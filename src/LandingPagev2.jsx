@@ -182,10 +182,20 @@ export default function LandingPage() {
 {`import PSHImageEditor from 'react-psh-image-editor-modal';
 
 function App() {
+    const handleImageSubmit = (file) => {
+    console.log('Edited image:', file);
+    
+    // Upload to server
+    const formData = new FormData();
+    formData.append('image', file);
+    // fetch('/api/upload', {
+    //   method: 'POST',
+    //   body: formData
+    // });
+  };
   return (
-    <PSHImageEditor onSubmit={(file) => {
-      console.log('Edited image:', file);
-    }}
+    <PSHImageEditor 
+    onSubmit={handleImageSubmit}
     name="Upload Image" />
   );
 }`}
