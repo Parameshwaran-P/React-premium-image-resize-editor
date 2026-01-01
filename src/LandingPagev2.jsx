@@ -118,7 +118,7 @@ export default function LandingPage() {
           <p className={`text-xl sm:text-4xl mb-10 leading-relaxed ${
              darkMode ? 'text-white' : 'text-purple-900'
           }`} style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
-            A modern, production-ready image editor modal for React apps.
+            A modern, production-ready image editor modal for React applications.
             <br />
             Resize, crop, adjust, and export images effortlessly - just like Canva.
           </p>
